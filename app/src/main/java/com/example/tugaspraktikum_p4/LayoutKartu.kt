@@ -75,7 +75,16 @@ fun KartuProfil(
                         fontSize = spResource(R.dimen.ukuran_detail)
                     )
                 }
-)
+                Text(
+                    text = alamat,
+                    color = warnaAlamat,
+                    fontSize = spResource(R.dimen.ukuran_detail)
+                )
+            }
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.deskripsi_logo),
+                modifier = Modifier.size(dimensionResource(R.dimen.ukuran_logo))
             )
         }
     }
