@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="margin_layar">16dp</dimen>
+    <dimen name="jarak_atas_header">48dp</dimen>
+    <dimen name="jarak_judul_ke_kartu">24dp</dimen>
+    <dimen name="jarak_antar_kartu">12dp</dimen>
+    <dimen name="jarak_bawah_footer">16dp</dimen>
+    <dimen name="radius_kartu">16dp</dimen>
+    <dimen name="padding_kartu_vertikal">12dp</dimen>
+    <dimen name="padding_kartu_horizontal">12dp</dimen>
+</resources>
