@@ -11,3 +11,6 @@
     <color name="kartu_abu">#FF616161</color>
     <color name="kartu_ungu">#FF6F42C1</color>
     <color name="kartu_biru">#FF0000FF</color>
+    <color name="kartu_hijau">#FF006400</color>
+
+</resources>
