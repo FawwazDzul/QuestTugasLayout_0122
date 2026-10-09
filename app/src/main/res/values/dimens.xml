@@ -9,4 +9,11 @@
     <dimen name="radius_kartu">16dp</dimen>
     <dimen name="padding_kartu_vertikal">12dp</dimen>
     <dimen name="padding_kartu_horizontal">12dp</dimen>
+    <dimen name="jarak_logo_teks">12dp</dimen>
+    <dimen name="ukuran_logo">72dp</dimen>
+    <dimen name="ukuran_judul">28sp</dimen>
+    <dimen name="ukuran_subjudul">16sp</dimen>
+    <dimen name="ukuran_nama">22sp</dimen>
+    <dimen name="ukuran_detail">14sp</dimen>
+    <dimen name="ukuran_hak_cipta">12sp</dimen>
 </resources>
