@@ -48,5 +48,29 @@ fun LayoutUtama(modifier: Modifier = Modifier) {
                 fontNama = FontFamily.Cursive,
                 ketebalanNama = FontWeight.Normal
             )
+            KartuProfil(
+                nama = stringResource(R.string.nama_2),
+                telepon = stringResource(R.string.telepon_2),
+                alamat = stringResource(R.string.alamat_2),
+                warnaLatar = colorResource(R.color.kartu_ungu),
+                warnaAlamat = colorResource(R.color.teks_kuning)
+            )
+            KartuProfil(
+                nama = stringResource(R.string.nama_3),
+                telepon = stringResource(R.string.telepon_3),
+                alamat = stringResource(R.string.alamat_3),
+                warnaLatar = colorResource(R.color.kartu_biru),
+                warnaAlamat = colorResource(R.color.teks_putih)
+            )
+            KartuProfil(
+                nama = stringResource(R.string.nama_4),
+                telepon = stringResource(R.string.telepon_4),
+                alamat = stringResource(R.string.alamat_4),
+                warnaLatar = colorResource(R.color.kartu_hijau),
+                warnaAlamat = colorResource(R.color.teks_putih)
+            )
+        }
 
+
+    }
 }
