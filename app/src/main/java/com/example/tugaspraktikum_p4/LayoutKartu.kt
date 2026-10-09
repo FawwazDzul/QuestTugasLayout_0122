@@ -44,6 +44,14 @@ fun KartuProfil(
         shape = RoundedCornerShape(dimensionResource(R.dimen.radius_kartu)),
         colors = CardDefaults.cardColors(containerColor = warnaLatar)
     ) {
-        
+        Row(
+            modifier = Modifier.padding(
+                horizontal = dimensionResource(R.dimen.padding_kartu_horizontal),
+                vertical = dimensionResource(R.dimen.padding_kartu_vertikal)
+            ),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            
+        }
     }
 }
