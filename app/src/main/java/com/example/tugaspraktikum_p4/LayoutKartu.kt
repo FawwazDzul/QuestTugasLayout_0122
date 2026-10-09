@@ -39,5 +39,11 @@ fun KartuProfil(
     fontNama: FontFamily = FontFamily.Default,
     ketebalanNama: FontWeight = FontWeight.Bold
 ) {
-
+    Card(
+        modifier = modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.radius_kartu)),
+        colors = CardDefaults.cardColors(containerColor = warnaLatar)
+    ) {
+        
+    }
 }
