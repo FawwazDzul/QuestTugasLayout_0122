@@ -68,7 +68,15 @@ fun KartuProfil(
                     fontFamily = fontNama,
                     fontWeight = ketebalanNama
                 )
-
+                if (telepon != null) {
+                    Text(
+                        text = telepon,
+                        color = colorResource(R.color.teks_cyan),
+                        fontSize = spResource(R.dimen.ukuran_detail)
+                    )
+                }
+)
+            )
         }
     }
 }
