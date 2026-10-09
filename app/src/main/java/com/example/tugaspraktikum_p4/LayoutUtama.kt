@@ -39,6 +39,14 @@ fun LayoutUtama(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_judul_ke_kartu)))
 
+        Column(verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.jarak_antar_kartu))) {
+            KartuProfil(
+                nama = stringResource(R.string.nama_1),
+                alamat = stringResource(R.string.alamat_1),
+                warnaLatar = colorResource(R.color.kartu_abu),
+                warnaAlamat = colorResource(R.color.teks_kuning),
+                fontNama = FontFamily.Cursive,
+                ketebalanNama = FontWeight.Normal
+            )
 
-    }
 }
