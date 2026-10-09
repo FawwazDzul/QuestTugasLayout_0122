@@ -2,4 +2,8 @@
     <string name="app_name">TugasPraktikum_P4</string>
     <string name="judul_jurusan">Teknologi Informasi</string>
     <string name="judul_kampus">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="hak_cipta">Copyright, 2026</string>
+    <string name="deskripsi_logo">Logo Universitas Muhammadiyah Yogyakarta</string>
+
+
 </resources>
