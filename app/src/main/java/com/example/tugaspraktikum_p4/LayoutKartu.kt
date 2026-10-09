@@ -51,7 +51,24 @@ fun KartuProfil(
             ),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.deskripsi_logo),
+                modifier = Modifier.size(dimensionResource(R.dimen.ukuran_logo))
+            )
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = dimensionResource(R.dimen.jarak_logo_teks))
+            ) {
+                Text(
+                    text = nama,
+                    color = colorResource(R.color.teks_putih),
+                    fontSize = spResource(R.dimen.ukuran_nama),
+                    fontFamily = fontNama,
+                    fontWeight = ketebalanNama
+                )
+
         }
     }
 }
