@@ -24,5 +24,21 @@ fun LayoutUtama(modifier: Modifier = Modifier) {
             .padding(horizontal = dimensionResource(R.dimen.margin_layar)),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_atas_header)))
+        Text(
+            text = stringResource(R.string.judul_jurusan),
+            color = colorResource(R.color.teks_judul),
+            fontSize = spResource(R.dimen.ukuran_judul),
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = stringResource(R.string.judul_kampus),
+            color = colorResource(R.color.teks_judul),
+            fontSize = spResource(R.dimen.ukuran_subjudul),
+            fontWeight = FontWeight.Bold
+        )
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_judul_ke_kartu)))
 
+
+    }
 }
