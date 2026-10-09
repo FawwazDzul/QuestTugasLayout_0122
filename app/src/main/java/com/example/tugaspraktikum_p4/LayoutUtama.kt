@@ -71,6 +71,12 @@ fun LayoutUtama(modifier: Modifier = Modifier) {
             )
         }
 
-
+        Spacer(modifier = Modifier.weight(1f))
+        Text(
+            text = stringResource(R.string.hak_cipta),
+            color = colorResource(R.color.teks_judul),
+            fontSize = spResource(R.dimen.ukuran_hak_cipta)
+        )
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_bawah_footer)))
     }
 }
